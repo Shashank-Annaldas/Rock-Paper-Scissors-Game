@@ -1,0 +1,41 @@
+body{
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.move-icon{
+  height: 50px;
+  cursor: pointer;
+}
+/* .move-icon:active{
+  height: 80px;
+  cursor: pointer;
+} */
+button{
+  background-color: transparent;
+  height: 100px;
+  width: 100px;
+  border: 3px dotted white;
+  border-radius: 50px;
+  margin: 10px;
+  cursor: pointer;
+}
+button:active{
+  border: 5px solid green;
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+}
+.reset{
+  background-color: transparent;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.reset:active{
+  border: 4px solid red;
+  font-size: 20px;
+}
